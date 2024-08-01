@@ -1,16 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  --font-serif: "Inter"; 
+  font-family: var(--font-serif), system-ui, Helvetica, Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light;
+  color: rgb(255, 255, 255);
+  background-color: var(--background-page);
+
+  /* Background */
+	--background-page: #FFF;
+	--background-body: #FFF;
+	--background-subtle: var(--colour-neutrals-50);
+	--background-inactive: var(--colour-neutrals-200);
+	--background-secondary: var(--colour-neutrals-100);
+	/* Border */
+	--border-container: var(--colour-neutrals-300); 
+	--border-strong: var(--colour-neutrals-400); 
+	--border-inactive: var(--colour-neutrals-200); 
+	--border-outline: var(--colour-neutrals-900); 
+	/* Icon */
+	--icon-primary: var(--colour-neutrals-800);
+	--icon-secondary: var(--colour-neutrals-700);
+	--icon-subtle: var(--colour-neutrals-600);
+	--icon-inactive: var(--colour-neutrals-500);
+	/* Text */
+	--text-body: var(--colour-neutrals-800);
+	--text-secondary: var(--colour-neutrals-700);
+	--text-subtle: var(--colour-neutrals-600);
+	--text-inactive: var(--colour-neutrals-500);
+}
+
+html {
+	/* Colours */
+	--colour-neutrals-50: #F7F7FF;
+	--colour-neutrals-100: #EFEFFB;
+	--colour-neutrals-200: #E5E4F0;
+	--colour-neutrals-300: #D4D3DF;
+	--colour-neutrals-400: #B0AFBA;
+	--colour-neutrals-500: #8F8F99;
+	--colour-neutrals-600: #676771;
+	--colour-neutrals-700: #54545E;
+	--colour-neutrals-800: #36363F;
+	--colour-neutrals-900: #16161E;
+  
+  	/* Spacing */
+	--spacing-025: 0.125rem;
+	--spacing-05: 0.25rem; 
+	--spacing-1: 0.5rem;
+	--spacing-2: 1rem;
+	--spacing-3: 1.5rem;
+	--spacing-4: 2rem;
+	--spacing-5: 2.5rem;
+	--spacing-6: 3rem;
+	--spacing-7: 3.5rem;
+	--spacing-8: 4rem;
+	--spacing-9: 4.5rem;
+	--spacing-10: 5rem;
+	--spacing-11: 5.5rem;
+	--spacing-12: 6rem;
+
+  	/* Radii */
+	--radius-s: 4px;
+	--radius-m: 8px;
+	--radius-l: 16px;
 }
 
 a {
@@ -30,20 +87,60 @@ body {
   min-height: 100vh;
 }
 
+/* Typography */
+
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  margin: 0;
+  color: var(--text-body);
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.card {
-  padding: 2em;
+h2 {
+  margin: 0;
+  color: var(--text-body);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3 {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+p {
+  margin: 0;
+  color: var(--text-body);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text-column {
+	margin: 0;
+	display: flex;
+	gap: var(--spacing-2);
+	width: 60%;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 button {
@@ -65,7 +162,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -76,4 +173,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
