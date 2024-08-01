@@ -3,7 +3,7 @@
         <p>On the icy hills and coasts of the Antarctic peninsula, you will find all three of the continent’s flowering plants. <i>Deschampsia antarctica</i>, or the Antarctic hair grass, grows in small tufts, as the name suggests. <i>Colobanthus quitensis</i>, or the Antarctic pearlwort, could easily be mistaken for moss. <i>Poa annua</i>, or annual meadow grass, grows silver-pink flowers.</p>
     </div>
 
-    <img src="src/assets/case-study-1.png" alt="A food web of plants in Antarctica, superimposed against a map of the Antarctic peninsula">
+    <img src="../assets/case-study-1.png" alt="A food web of plants in Antarctica, superimposed against a map of the Antarctic peninsula">
 
     <div class="text-column">
         <p>That last one, is the same kind of grass that are used on golf courses. </p>

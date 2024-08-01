@@ -9,7 +9,7 @@
         </p>
     </div>
 
-    <img src="src/assets/case-study-2.png" alt="A food web of animals on Macquarie Islands, superimposed against a map of the island">
+    <img src="../assets/case-study-2.png" alt="A food web of animals on Macquarie Islands, superimposed against a map of the island">
 
     <div class="text-column">
         <p>

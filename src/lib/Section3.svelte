@@ -9,7 +9,7 @@
         </p>
     </div>
 
-    <img src="src/assets/findings.png" alt="Findings from Antarctica">
+    <img src="../assets/findings.png" alt="Findings from Antarctica">
 
     <div class="text-column">
         <p>
