@@ -1,3 +1,7 @@
+<script>
+    import findings from '../assets/findings.png';
+</script>
+
 <section class="section-3">
     <div class="text-column">
         <h2>Antarctica has been getting milder</h2>
@@ -9,7 +13,7 @@
         </p>
     </div>
 
-    <img src="../assets/findings.png" alt="Findings from Antarctica">
+    <img src={findings} alt="Findings from Antarctica">
 
     <div class="text-column">
         <p>

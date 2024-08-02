@@ -1,3 +1,7 @@
+<script>
+    import case2 from '../assets/case-study-2.png';
+</script>
+
 <section class="section-2">
     <div class="text-column">
         <h2>It only takes a few</h2>
@@ -9,7 +13,7 @@
         </p>
     </div>
 
-    <img src="../assets/case-study-2.png" alt="A food web of animals on Macquarie Islands, superimposed against a map of the island">
+    <img src={case2} alt="A food web of animals on Macquarie Islands, superimposed against a map of the island">
 
     <div class="text-column">
         <p>
