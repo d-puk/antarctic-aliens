@@ -1,5 +1,6 @@
 <script>
-    import case2 from '../assets/case-study-2.png';
+    import case2 from '../assets/case study - 2.png';
+    import Globe from './Globe.svelte';
 </script>
 
 <section class="section-2">
@@ -27,7 +28,9 @@
         </p>
     </div>
 
-    <iframe width="100%" height="944" frameborder="0" src="https://observablehq.com/embed/@dpuk/antarctic-aliens@1314?cells=viewof+rotate%2CbubbleMap" title="Bubble map"></iframe>
+    <!-- <iframe width="100%" height="944" frameborder="0" src="https://observablehq.com/embed/@dpuk/antarctic-aliens@1314?cells=viewof+rotate%2CbubbleMap" title="Bubble map"></iframe> -->
+
+    <Globe />
 
     <div class="text-column">
         <p>

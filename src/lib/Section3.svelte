@@ -1,5 +1,7 @@
 <script>
     import findings from '../assets/findings.png';
+    import timeline from '../assets/eradicationTimeline - desktop.png';
+    import timelineMobile from '../assets/eradicationTimeline - mobile.png';
 </script>
 
 <section class="section-3">
@@ -13,7 +15,7 @@
         </p>
     </div>
 
-    <img src={findings} alt="Findings from Antarctica">
+        <img src={findings} alt="Findings from Antarctica">
 
     <div class="text-column">
         <p>
@@ -24,7 +26,10 @@
         </p>
     </div>
 
-    <iframe width="100%" height="401" frameborder="0" src="https://observablehq.com/embed/@dpuk/antarctic-aliens@1347?cells=eradicationTimeline" title="Eradication timeline"></iframe>
+    <picture>
+        <source srcset="{timelineMobile}" media="(max-width: 767px)">
+        <img src="{timeline}" alt="A Gantt chart timeline how long it took to eradicate 7 invasive species">
+    </picture>
 
     <div class="text-column">
         <p>

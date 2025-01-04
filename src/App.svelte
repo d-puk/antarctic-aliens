@@ -20,7 +20,7 @@
 </main>
 
 <style>
-  main {
+    main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,4 +35,23 @@
     align-items: center;
     gap: var(--spacing-6, 3rem);
   }
+
+/* Tablet */
+@media (max-width: 1024px) and (min-width: 768px) {
+  article {
+    width: 80%;
+  }
+}
+
+/* Phone */
+@media (max-width: 767px) {
+  main {
+    gap: var(--spacing-6);
+  }
+
+  article {
+    width: 85%;
+    /* padding-inline: var(--spacing-3); */
+  }
+}
 </style>

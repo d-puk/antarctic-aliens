@@ -1,5 +1,5 @@
 <script>
-    import case1 from '../assets/case-study-1.png'
+    import case1 from '../assets/case study - 1.png'
 </script>
 
 <section class="intro">

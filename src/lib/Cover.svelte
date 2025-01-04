@@ -32,4 +32,12 @@
         text-align: center;
         gap: var(--spacing-5);
     }
+
+    /* Phone */
+    @media (max-width: 767px) {
+        .title {
+            gap: var(--spacing-2);
+            /* padding-inline: var(--spacing-3); */
+        }
+    }
 </style>
