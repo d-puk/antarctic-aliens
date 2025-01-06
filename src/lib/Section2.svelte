@@ -28,8 +28,6 @@
         </p>
     </div>
 
-    <!-- <iframe width="100%" height="944" frameborder="0" src="https://observablehq.com/embed/@dpuk/antarctic-aliens@1314?cells=viewof+rotate%2CbubbleMap" title="Bubble map"></iframe> -->
-
     <Globe />
 
     <div class="text-column">
