@@ -10,7 +10,7 @@
     const globeWidth = 720;
     let isDragging = false;
     let startX = 0;
-    const baseUrl = window.location.hostname === "localhost" ? "" : "/antarctic-aliens";
+    // const baseUrl = window.location.hostname === "localhost" ? "" : "/antarctic-aliens";
     
     function handleDragStart(event) {
         isDragging = true;
@@ -82,10 +82,10 @@
 
     onMount(async () => {
         // Your existing data loading code
-        const land50m = await fetch("/antarctic-aliens/src/data/land-50m.json").then((res) => res.json()); 
+        const land50m = await fetch("/antarctic-aliens/data/land-50m.json").then((res) => res.json()); 
         land = feature(land50m, land50m.objects.land);
 
-        const data = await d3.csv("/antarctic-aliens/src/data/AA-Final.csv");
+        const data = await d3.csv("/antarctic-aliens/data/AA-Final.csv");
 
         locPlot = Array.from(
             d3.group(data, d => `${d.locality}|${d.lat}|${d.long}`), 
