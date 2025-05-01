@@ -17,6 +17,11 @@
     <Section3 />
     <End />
   </article>
+
+  <footer>
+      <p>Species data sourced from <a href="https://figshare.com/articles/dataset/Introduced_and_invasive_alien_species_of_Antarctica_and_the_Southern_Ocean_Islands/22056647">Rachel Leihy et al (2023)</a> </p>
+      <p>Made using Svelte, Observable Plot and Datawrapper</p>
+  </footer>
 </main>
 
 <style>
@@ -25,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-10, 5rem);
-    margin-bottom: var(--spacing-12, 6rem);
+    margin-bottom: var(--spacing-5, 2.5rem);
   }
 
   article {
@@ -34,6 +39,15 @@
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-6, 3rem);
+  }
+
+  footer {
+      display: flex;
+      width: 95%;
+      padding: var(--spacing-2, 1rem) 0rem;
+      justify-content: space-between;
+
+      border-block: 1px solid var(--border-strong, #B0AFBA);
   }
 
   /* Tablet */
@@ -52,6 +66,10 @@
     article {
       width: 85%;
       /* padding-inline: var(--spacing-3); */
+    }
+
+    footer {
+      flex-direction: column;
     }
   }
 </style>
