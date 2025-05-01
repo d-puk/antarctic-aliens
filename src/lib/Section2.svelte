@@ -48,6 +48,13 @@
     }
 
     img {
-        width: 100%;
+        width: 125%;
+    }
+
+    /* Phone */
+    @media (max-width: 767px) {
+        img {
+            width: 100%;
+        }
     }
 </style>
