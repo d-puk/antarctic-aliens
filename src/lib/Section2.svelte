@@ -29,8 +29,8 @@
         </p>
     </div>
 
-    <!-- <Globe /> -->
-    <Stereographic /> 
+    <Globe />
+    <!-- <Stereographic />  -->
 
     <div class="text-column">
         <p>
