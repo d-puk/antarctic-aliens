@@ -15,21 +15,18 @@
         </p>
     </div>
 
-        <img src={findings} alt="Findings from Antarctica">
+    <img class="findings" src={findings} alt="Findings from Antarctica">
 
     <div class="text-column">
         <p>
             All scientists on the continent understand the value of protecting the ecosystem they’re studying. Once an invasive species is detected, they take stringent lockdown and control measures to eradicate them. But control and eradication could also take a lot of effort, time and money.  
         </p>
         <p>
-            Take a look at when the invasive species were eradicated after their date of observation. 
+            Take a look at when the invasive species were eradicated after their date of first observation. 
         </p>
     </div>
 
-    <picture>
-        <source srcset="{timelineMobile}" media="(max-width: 767px)">
-        <img src="{timeline}" alt="A Gantt chart timeline how long it took to eradicate 7 invasive species">
-    </picture>
+    <img src="{timeline}" alt="A Gantt chart timeline how long it took to eradicate 7 invasive species">
 
     <div class="text-column">
         <p>
@@ -44,6 +41,10 @@
         flex-direction: column;
         align-items: center;
         gap: var(--spacing-6, 3rem);
+    }
+
+    .findings {
+        width: 80%;
     }
 
     img {

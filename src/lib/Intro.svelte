@@ -12,9 +12,9 @@
     <div class="text-column">
         <p>That last one, is the same kind of grass that are used on golf courses. </p>
 
-        <p>It’s what scientists would call an <span class="key">◇ invasive</span> species, ‘aliens’ who are not originally from the <span class="key">○ native</span> ecosystem. It now makes up for a third of Antarctica’s grasses, and is set to outperform the other two.</p>
+        <p>It’s what scientists would call an <i>invasive</i> species, ‘aliens’ who are not originally from the <i>native</i> ecosystem. It now makes up for a third of Antarctica’s grasses, and is set to outperform the other two.</p>
 
-        <p>Invasives have always posed a <span class="dashed">threat</span> to natives for a number of reasons. They can compete for resources and wipe out native flora and fauna. They could carry pathogens that natives have not built defences for. More directly, they could be predators who have come upon easy prey.</p>
+        <p>Invasives have always posed a threat to natives for a number of reasons. They can compete for resources and wipe out native flora and fauna. They could carry pathogens that natives have not built defences for. More directly, they could be predators who have come upon easy prey.</p>
 
         <p>For the Antarctic natives, this is danger is heavily underlined. But before we understand why, we might ask how they get there in the first place.</p>
     </div>
@@ -30,18 +30,5 @@
 
     img {
         width: 100%;
-    }
-
-    .key {
-       text-transform: uppercase;
-       font-weight: bold;
-    }
-
-    .dashed {
-        font-weight: bold;
-        text-decoration: underline;
-        text-decoration-style: dashed;
-        text-underline-offset: var(--spacing-025);
-        text-decoration-thickness: var(--spacing-025);
     }
 </style>

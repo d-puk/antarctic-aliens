@@ -13,23 +13,18 @@
         </p>
     </div>
     
-    <picture>
-        <source srcset="{introTimelineMobile}" media="(max-width: 767px)">
-        <img src="{introTimeline}" alt="A beeswarm timeline of how species were introduced to the Antarctic biome">
-    </picture>
+    <img src="{introTimeline}" alt="A beeswarm timeline of how species were introduced to the Antarctic biome">
+    
+    <!-- <picture>
+        <source srcset="{establishmentMobile}" media="(max-width: 767px)">
+        <img src="{establishment}" alt="A donut chart of the share of species that are introduced by human means in the Antarctic">
+        </picture> -->
 
     <div class="text-column">
         <p>
-            While species have been known to wander across lands and seas naturally, the rate at which they do this is much slower. 
+            While species have been known to wander across lands and seas naturally, the rate at which they do this is much slower.
         </p>
-    </div>
 
-    <picture>
-        <source srcset="{establishmentMobile}" media="(max-width: 767px)">
-        <img src="{establishment}" alt="A donut chart of the share of species that are introduced by human means in the Antarctic">
-    </picture>
-
-    <div class="text-column">
         <p>
             As explorers ventured further south, they took passengers of all kinds with them. Mice, rats, cats, ponies and wolves were some of the many aliens that made an appearance in the region. And some of these stayed to wreak all sorts of havoc on the local ecologies.
         </p>
@@ -53,6 +48,6 @@
     }
 
     img {
-        width: 100%;
+        width: 150%;
     }
 </style>

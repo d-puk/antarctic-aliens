@@ -1,6 +1,7 @@
 <script>
     import case2 from '../assets/case study - 2.png';
     import Globe from './Globe.svelte';
+    import Stereographic from './Stereographic.svelte';
 </script>
 
 <section class="section-2">
@@ -18,7 +19,7 @@
 
     <div class="text-column">
         <p>
-            Two bird species were driven to <span class="key">⍉ extinction</span> and many more were endangered. As scientists began to conserve the island and end the seal trade, a rabbit eradication program, started in the 1960s, was somewhat successful. As rabbit numbers dwindled because of an introduced virus, the cats turned once more to the birds. Then the cats were hunted, starting in the 1980s. This brought the return of the rabbits, which meant more leaf cover lost. 
+            Two bird species were driven to extinction and many more were endangered. As scientists began to conserve the island and end the seal trade, a rabbit eradication program, started in the 1960s, was somewhat successful. As rabbit numbers dwindled because of an introduced virus, the cats turned once more to the birds. Then the cats were hunted, starting in the 1980s. This brought the return of the rabbits, which meant more leaf cover lost. 
         </p>
         <p>
             The island was finally declared pest free in 2014, two centuries and more than $24m dollars later.
@@ -28,7 +29,8 @@
         </p>
     </div>
 
-    <Globe />
+    <!-- <Globe /> -->
+    <Stereographic /> 
 
     <div class="text-column">
         <p>
@@ -47,10 +49,5 @@
 
     img {
         width: 100%;
-    }
-
-    .key {
-       text-transform: uppercase;
-       font-weight: bold;
     }
 </style>
